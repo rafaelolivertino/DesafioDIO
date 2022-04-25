@@ -1,0 +1,1 @@
+### Esse é um desafio da plataforma DIO, onde o objetivo dele é recriar a Netflix.
