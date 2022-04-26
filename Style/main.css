@@ -22,13 +22,12 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 12px;
 }
 
 header .logo {
-    margin-left: 5px;
+    margin-left: 10px;
     height: 40px;
-
-
 }
 
 header nav a{
@@ -45,7 +44,7 @@ header nav a:hover{
 
 .fotoprincipal{
     font-size: 16px;
-    background: url(/resource/SI202203270395_hires_jpeg_24bit_rgb_news-scaled.png);
+    background: url(/resource/SI202203270395_hires_jpeg_24bit_rgb_news-scaled.webp);
 
     height: 550px;
     background-size: cover;
@@ -67,6 +66,7 @@ header nav a:hover{
 .sobre{
     margin-top: 1%;
     font-size: 20px;
+    text-shadow: #141414;
 }
 
 .botao{
@@ -83,11 +83,6 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s;
 
-}
-
-.botao:hover{
-    background-color: white;
-    color: black;
 }
 
 .botao i{
@@ -132,6 +127,5 @@ html {
 
 .btext{
     text-decoration: none;
-    color: white
-
+    color: #fff;
 }
