@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
     --vermelho: #E50914;
     --preto: #141414;
@@ -7,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -24,9 +26,9 @@ header .container {
 
 header .logo {
     margin-left: 5px;
-    color: #E50914;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+    height: 40px;
+
+
 }
 
 header nav a{
@@ -43,7 +45,7 @@ header nav a:hover{
 
 .fotoprincipal{
     font-size: 16px;
-    background: url(/resource/SI202203270395_hires_jpeg_24bit_rgb_news-scaled.jpg);
+    background: url(/resource/SI202203270395_hires_jpeg_24bit_rgb_news-scaled.png);
 
     height: 550px;
     background-size: cover;
@@ -53,7 +55,7 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
 
-    margin-bottom: -200px;
+    margin-bottom: 0px;
     
 }
 
@@ -68,9 +70,11 @@ header nav a:hover{
 }
 
 .botao{
-    background-color: rgba(0, 0, 0, .50);
+    background-color: rgba(0, 0, 0, .80);
     border: none;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 
     padding: 10px 15px;
     font-size: 20px;
@@ -78,6 +82,7 @@ header nav a:hover{
 
     cursor: pointer;
     transition: .3s;
+
 }
 
 .botao:hover{
@@ -98,8 +103,35 @@ header nav a:hover{
     width: 70%;
 }
 
-.box{
+.box-corridas{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-corridas{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.Temp2022{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.btext{
+    text-decoration: none;
+    color: white
+
 }
